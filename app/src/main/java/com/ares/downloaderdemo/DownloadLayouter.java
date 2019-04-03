@@ -36,7 +36,10 @@ public class DownloadLayouter {
 
 
 //
-            final Jarvis.Downloader downloader = Jarvis.with(layout.getContext()).withUrl(url).filePath(Environment.getExternalStorageDirectory() + File.separator + "test").threadCount(3).refreshTime(1000).setDownloadListener(new DownloadListener() {
+            final Jarvis.Downloader downloader = Jarvis.with(layout.getContext())
+                    .withUrl(url)
+                    .filePath(Environment.getExternalStorageDirectory() + File.separator + "test").threadCount(3).refreshTime(1000)
+                    .setDownloadListener(new DownloadListener() {
 
                 @Override
                 public void onStart() {
@@ -49,8 +52,6 @@ public class DownloadLayouter {
                     progressBar.setProgress(100);
                     btn.setText("下载完毕");
                     deleteBtn.setEnabled(true);
-
-
                 }
 
 

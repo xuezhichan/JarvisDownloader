@@ -3,9 +3,9 @@ package com.ares.downloaderdemo;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.RecyclerView;
+import androidx.annotation.Nullable;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.RecyclerView;
 import android.view.View;
 
 import com.ares.downloader.jarvis.Jarvis;
@@ -23,10 +23,10 @@ import java.util.List;
 public class DownloadActivity extends AppCompatActivity {
 
 
-    String url = "http://pic2.zhimg.com/80/v2-4bd879d9876f90c1db0bd98ffdee17f0_hd.jpg";
-    String url1 = "http://www.sxotu.com/u/20180509/09154140.gif";
-    String url2 = "http://pic1.win4000.com/wallpaper/2017-10-11/59dde2bca944f.jpg";
-    String url3 = "http://gdown.baidu.com/data/wisegame/d2fbbc8e64990454/wangyiyunyinle_87.apk";
+    String url = "https://s.samewwj.com/sameV5.0.9.apk";
+    String url1 = "https://s.samewwj.com/sameV5.1.1.apk";
+    String url2 = "https://s.samewwj.com/sameV5.1.2.apk";
+    String url3 = "https://gdown.baidu.com/data/wisegame/d2fbbc8e64990454/wangyiyunyinle_87.apk";
 
 
 

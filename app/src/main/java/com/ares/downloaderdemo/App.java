@@ -27,8 +27,5 @@ public class App extends Application {
 
         Jarvis.init(new DefaultDownloadHistoryDBHelper(this));
         LeakCanary.install(this);
-
-
-
     }
 }

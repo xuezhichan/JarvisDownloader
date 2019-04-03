@@ -18,7 +18,7 @@ import java.util.Map;
  * @author ares
  */
 
-public class DownloadThread extends Thread {
+public class DownloadThread implements Runnable {
 
     private static final String DEFAULT_FILE_PATH = Environment.getExternalStorageDirectory() + File.separator + "Jarvis";
 
